@@ -1,0 +1,79 @@
+.border {
+  border: 2px solid red;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.flex {
+  display: flex;
+}
+
+.bg-grey {
+  background-color: #121212;
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+.m-1 {
+  margin: 5px;
+}
+
+.p-1 {
+  padding: 10px;
+}
+
+.card h4 {
+  font-weight: 500;
+}
+
+.card p {
+  font-size: 13px;
+  color: #7e7e7e;
+}
+
+.card p:hover {
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+/* Apply to the whole document */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2c2c2c;
+  border-radius: 6px;
+  /* Dark background for the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  /* Dark grey handle */
+  border-radius: 6px;
+  /* Rounded corners */
+  border: 3px solid #2c2c2c;
+  /* Padding around handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+  /* Slightly lighter grey on hover */
+}
